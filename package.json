@@ -1,0 +1,27 @@
+{
+  "name": "now-playing-passport",
+  "version": "1.0.0",
+  "description": "A small node API to make possible send/retrieve data from Twitter API for Now Playing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "Marcus Correa",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "socket.io": "^1.1.0",
+    "twit": "^2.2.11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}
