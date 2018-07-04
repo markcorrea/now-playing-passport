@@ -8,8 +8,13 @@ const T = require('../../twit')
 router.post('/search/tweets', (req, res, next) => {
   console.log(req.body)
   T.get('search/tweets', req.body, function (err, data, response) {
-    console.log(data)
-    res.status(200).json(data);
+    let returnData = {statuses: []}
+      for (var i = 0; i < data.statuses.length; i++) {
+        if (!data.statuses[i].truncated) {
+          returnData.statuses.push(data.statuses[i])
+        }
+      }
+    res.status(200).json(returnData);
   })
 });
 
