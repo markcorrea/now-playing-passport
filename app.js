@@ -20,6 +20,9 @@ app.use((req, res, next) => {
 /* The routes to access Twitter API */
 app.use('/twitter', twitterRoutes);
 
+/* Test */
+app.use('/test', twitterRoutes);
+
 app.use((req, res, next) => {
   const error = new Error('Not found');
   error.status = 404;
