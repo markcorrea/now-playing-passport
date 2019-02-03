@@ -18,7 +18,7 @@ router.post('/search/tweets', (req, res, next) => {
   })
 })
 
-/* The route that publishes a new tweet to the BINowPlaying page. */
+/* The route that publishes a new tweet to the @obiscateiro page. */
 router.post('/tweet', (req, res, next) => {
   console.log(req.body)
   T.post('statuses/update', req.body, function(err, data, response) {

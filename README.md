@@ -1,12 +1,12 @@
-# Now Playing Passport
+# Trending Passport
 
 PS: This project is a Twitter API helper to connect the project below to the Twitter API.
-- https://github.com/markcorrea/now-playing
+- https://github.com/markcorrea/trending
 
 
 Project overview:
 
-The "passport" on the name is due to the Twitter API, which doesn't allow cross-origin accesses to its API. To make this accessible by the Now Playing project, this one was created as a key that allows this information. That's where the name came.
+The "passport" on the name is due to the Twitter API, which doesn't allow cross-origin accesses to its API. To make this accessible by the Trending project, this one was created as a key that allows this information. That's where the name came.
 
 I've chosen Node JS with Express because, for a small project, the simplest solution, avoiding complicated environment configurations, even when time is against us.
 

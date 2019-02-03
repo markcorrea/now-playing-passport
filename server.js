@@ -10,7 +10,7 @@ server.listen(port)
 
 /* Websocket connection */
 /* It basically starts the socket.io and starts checking for the posts */
-/* with the hastag NowPlaying, using the statuses/filter streaming route. */
+/* with the hastag #NowPlaying, using the statuses/filter streaming route. */
 var io = require('socket.io').listen(server)
 var stream = T.stream('statuses/filter', { track: '#NowPlaying' })
 

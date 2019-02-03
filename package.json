@@ -1,7 +1,7 @@
 {
-  "name": "now-playing-passport",
+  "name": "trending-passport",
   "version": "1.0.0",
-  "description": "A small node API to make possible send/retrieve data from Twitter API for Now Playing",
+  "description": "A small node API to make possible send/retrieve data from Twitter API for Trending",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

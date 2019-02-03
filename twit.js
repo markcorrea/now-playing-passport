@@ -1,6 +1,6 @@
 var Twit = require('twit')
 
-/* This sets the Twitter credentials to connect with the BINowPlaying login. */
+/* This sets the Twitter credentials to connect with the @obiscateiro login. */
 var T = new Twit({
   consumer_key: 'jvP3INkCviLvMAuAust6dnqhF',
   consumer_secret: 'W4DPPrqExxFMo0keeRIi1HBiLvtjVNZD1SEBojvovsqMDhN2du',
