@@ -27,12 +27,4 @@ router.post('/tweet', (req, res, next) => {
   })
 })
 
-/* Test route */
-router.post('/test', (req, res, next) => {
-    let data = {
-      message: 'working!'
-    }
-    res.status(200).json(data)
-})
-
 module.exports = router
